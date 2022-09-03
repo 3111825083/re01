@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="js/index.js"></script>
+    <title>解忧的网页</title>
+  </head>
+  <body style="margin: 0">
+    <header>解忧的网页</header>
+    <div class="head">
+      <img
+        onclick="tiaozhuan()"
+        alt="表情包"
+        src="image/QQ图片20220901132818.jpg"
+        width="80px"
+        height="80px"
+      />
+      <div><button class="button" onclick="tiaozhuan()">解忧</button></div>
+    </div>
+    
+    <div
+      style="
+        max-width: 760px;
+        margin: 30px auto;
+        padding: 15px;
+        line-height: 1.7;
+      "
+    >
+      <a href="#shipin">sm</a>
+
+      <video id="shipin" controls width="200">
+        <source src="image/2054949377.mp4" type="video/mp4" />
+      </video>
+    </div>
+      <footer>
+        <div
+          style="background-color: #f1f1f1; text-align: center; padding: 40px"
+        >
+          <a href="https://bilibili.com"
+            ><abbr title="哔哩哔哩">学习地点</abbr></a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
