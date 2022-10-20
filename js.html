@@ -41,7 +41,7 @@
 
   <body>
     <textarea></textarea>
-    <button>发布</button>
+    <button onclick="dian()">发布</button>
     <ul></ul>
     <script>
       //1、获取元素
@@ -49,7 +49,7 @@
       var btn = document.querySelector("button");
       var ul = document.querySelector("ul");
       //2、给button绑定点击事件
-      btn.onclick = function () {
+      function dian() {
         if (txt.value == "") {
           //当文本框中没有文字时，提示
           alert("您没有输入内容");
@@ -71,7 +71,7 @@
             };
           }
         }
-      };
+      }
     </script>
   </body>
 </html>

@@ -6,7 +6,3 @@ function jia() {
   let shuzi = parseInt(shuju.innerText);
   shuju.innerText = shuzi + 1;
 }
-let data = {
-  id:"";
-  name:"";
-}
