@@ -1,5 +1,5 @@
 function tiaozhuan() {
-  window.location.href = "/html/jieyou.html";
+  window.location.href = "html/jieyou.html";
 }
 function jia() {
   let shuju = window.document.getElementById("shu");
